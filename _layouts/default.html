@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">{{ site.title }}</a>
+      <nav class="site-nav">
+        {% for item in site.nav %}
+        <a href="{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
+        <a href="https://github.com/{{ site.social.github }}" target="_blank">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Powered by GitHub Pages</p>
+      <p>
+        <span id="busuanzi_container_site_pv">
+          本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
+        </span>
+        <span id="busuanzi_container_site_uv" style="margin-left: 15px;">
+          访客数 <span id="busuanzi_value_site_uv"></span> 人
+        </span>
+      </p>
+    </div>
+  </footer>
+
+  <script async src="//busuanzi.pure.js.org/busuanzi.js"></script>
+</body>
+</html>

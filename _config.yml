@@ -1,0 +1,57 @@
+# 博客配置
+title: zhuxunyu's Blog
+description: Developer | AI Enthusiast | Open Source Contributor
+url: "https://zhuxunyu.github.io"
+baseurl: ""
+
+# 主题设置
+theme: null
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# 页面设置
+paginate: 10
+paginate_path: "/page/:num/"
+
+# 导航菜单
+nav:
+  - name: 首页
+    url: /
+  - name: 文章
+    url: /posts/
+  - name: 关于
+    url: /about/
+
+# 社交链接
+social:
+  github: zhuxunyu
+  email: zhuxunyu98@gmail.com
+
+# 评论系统（可选）
+comments:
+  enabled: false
+
+# 统计
+analytics:
+  enabled: true
+
+# 默认布局
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# 排除文件
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
