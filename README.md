@@ -1,8 +1,9 @@
-# 📝 zhuxunyu's Blog
+# 🔬 硅基观察
 
-我的个人博客 - 简洁、美观、大气
+技术博客 - 深度分析科技产业、大模型前沿、开源项目
 
-**🌐 访问**: https://zhuxunyu.github.io
+**🌐 访问**: https://zhuxunyu.github.io  
+**📡 RSS**: https://zhuxunyu.github.io/feed.xml
 
 ---
 
