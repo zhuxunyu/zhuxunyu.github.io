@@ -31,8 +31,22 @@ layout: default
       {% endfor %}
     </ul>
   </section>
+  
+  <!-- 标签云 -->
+  {% assign tags = site.posts | map: "tags" | flatten | uniq %}
+  {% if tags.size > 0 %}
+  <section class="tag-cloud">
+    <h3>🏷️ 热门标签</h3>
+    <div class="tag-cloud-items">
+      {% for tag in tags %}
+      <a href="/posts/?tag={{ tag }}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
 </div>
 
+<!-- 添加标签云样式 -->
 <style>
 .hero {
   text-align: center;
@@ -71,5 +85,38 @@ layout: default
 
 .read-more:hover {
   color: var(--primary-hover);
+}
+
+/* 标签云 */
+.tag-cloud {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.tag-cloud h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--text-light);
+}
+
+.tag-cloud-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag-cloud-items a {
+  background: var(--bg-secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  transition: all 0.2s;
+}
+
+.tag-cloud-items a:hover {
+  background: var(--primary-color);
+  color: white;
 }
 </style>
