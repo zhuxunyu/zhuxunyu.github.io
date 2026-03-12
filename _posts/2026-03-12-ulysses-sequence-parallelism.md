@@ -1,6 +1,6 @@
 ---
 title: "Ulysses 序列并行：如何训练百万 Token 上下文"
-date: 2026-03-12 09:00:00
+date: 2026-03-12 08:00:00
 tags: [深度学习，分布式训练，长上下文，Ulysses, Transformer]
 categories: 技术深度
 ---
