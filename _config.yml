@@ -8,6 +8,7 @@ baseurl: ""
 markdown: kramdown
 highlighter: rouge
 permalink: /posts/:year-:month-:day-:title/
+future: true
 
 # 社交链接
 social:
