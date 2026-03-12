@@ -21,6 +21,37 @@ node_modules/
 .DS_Store
 Thumbs.db
 
+# =====================================
+# 非博客文件（不上传到 GitHub）
+# =====================================
+
+# 小说内容
+memory/novel-*
+
+# 运营脚本（非博客）
+scripts/novel/
+scripts/xhs/
+scripts/conference/
+
+# 技能文件
+skills/
+
+# 小说工具
+novel-tools/
+
+# 推广计划（非博客）
+promotion/
+
+# 临时文件
+tmp/
+*.tmp
+
+# 配置文件（含敏感信息）
+scripts/**/*.json
+*.json
+.DS_Store
+Thumbs.db
+
 # Python
 __pycache__/
 *.py[cod]
