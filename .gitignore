@@ -67,7 +67,7 @@ ENV/
 secrets/
 .private/
 
-# Memory/Internal files (OpenClaw)
+# Memory/Internal files (OpenClaw) - 隐私文件严禁上传
 memory/
 .openclaw/
 AGENTS.md
@@ -76,3 +76,8 @@ HEARTBEAT.md
 USER.md
 TOOLS.md
 IDENTITY.md
+WORKSPACE_GUIDE.md
+config/
+*.json
+!package.json
+!tsconfig.json
