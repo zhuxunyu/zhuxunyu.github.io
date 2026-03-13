@@ -86,9 +86,7 @@ scripts/conference/
 novel-tools/
 skills/
 promotion/
-blog-content/plans/
-blog-content/README.md
-blog-content/drafts/
+blog-content/
 
 # 敏感文件 - 严禁上传
 *.json
