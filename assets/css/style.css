@@ -87,6 +87,16 @@ a:hover {
   min-height: calc(100vh - 300px);
 }
 
+/* 文章图片样式 */
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* 首页文章列表 */
 .post-list {
   list-style: none;
