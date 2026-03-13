@@ -79,13 +79,16 @@ IDENTITY.md
 WORKSPACE_GUIDE.md
 config/
 
-# 非博客脚本 - 隐私文件严禁上传
+# 非博客脚本/内容 - 隐私文件严禁上传
 scripts/novel/
 scripts/xhs/
 scripts/conference/
 novel-tools/
 skills/
 promotion/
+blog-content/plans/
+blog-content/README.md
+blog-content/drafts/
 
 # 敏感文件 - 严禁上传
 *.json
