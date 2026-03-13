@@ -85,6 +85,7 @@ scripts/xhs/
 scripts/conference/
 novel-tools/
 skills/
+promotion/
 
 # 敏感文件 - 严禁上传
 *.json
