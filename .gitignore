@@ -78,6 +78,21 @@ TOOLS.md
 IDENTITY.md
 WORKSPACE_GUIDE.md
 config/
+
+# 非博客脚本 - 隐私文件严禁上传
+scripts/novel/
+scripts/xhs/
+scripts/conference/
+novel-tools/
+skills/
+
+# 敏感文件 - 严禁上传
 *.json
 !package.json
 !tsconfig.json
+*.pem
+*.key
+secrets/
+.private/
+*_cookies.json
+*_token.json
