@@ -195,12 +195,3 @@ AI Agent 时代已经到来，普通人如何抓住红利？以下是具体行�
 *字数：约 2800 字*  
 *发布时间：2026-03-13*  
 *标签：#AI Agent #代理经济 #效率革命 #技术博客*
-
----
-
-**配图说明**：本文配图已生成并上传至 `/assets/images/` 目录，共 5 张：
-1. `01-ai-timeline.png` - AI 演变时间线
-2. `02-terminal-screenshot.png` - gemini-cli 终端截图
-3. `03-scenarios.png` - 应用场景信息图
-4. `04-risk-balance.png` - 风险与收益平衡图
-5. `05-checklist.png` - 行动清单检查表
