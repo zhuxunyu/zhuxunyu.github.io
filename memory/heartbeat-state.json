@@ -1,0 +1,138 @@
+{
+  "github": {
+    "repos": [
+      {
+        "name": "ai-productivity-toolkit",
+        "owner": "zhuxunyu",
+        "url": "https://github.com/zhuxunyu/ai-productivity-toolkit",
+        "lastCheck": 1741665600000,
+        "checkInterval": "daily",
+        "tasks": {
+          "issues": {"enabled": true, "lastChecked": "2026-03-11T11:45:00+08:00", "openCount": 0},
+          "pullRequests": {"enabled": true, "lastChecked": "2026-03-11T11:45:00+08:00", "openCount": 0},
+          "notifications": {"enabled": true, "lastChecked": "2026-03-11T11:45:00+08:00", "unreadCount": 0},
+          "stars": {"enabled": true, "lastChecked": "2026-03-11T11:45:00+08:00", "count": 1}
+        }
+      }
+    ],
+    "pushStrategy": {
+      "mode": "scheduled",
+      "schedule": ["12:00", "20:00"],
+      "timezone": "Asia/Shanghai",
+      "maxPushesPerDay": 2,
+      "currentPushesToday": 2,
+      "lastPush": "2026-03-11T11:45:00+08:00",
+      "nextScheduledPush": "2026-03-12T12:00:00+08:00",
+      "localCommitsPending": 0,
+      "emergencyPushAllowed": true,
+      "dailyCommitRequired": true,
+      "updateTypes": [
+        "新功能开发",
+        "bug 修复",
+        "性能优化",
+        "文档更新",
+        "测试添加",
+        "体验改进",
+        "依赖更新",
+        "国际化"
+      ]
+    },
+    "trendingPlan": {
+      "startDate": "2026-03-07",
+      "targetDate": "2026-04-04",
+      "currentWeek": 1,
+      "currentStars": 1,
+      "week1Target": 50,
+      "progress": {
+        "readmeImproved": true,
+        "readmeInternationalized": true,
+        "issueTemplatesCreated": true,
+        "prTemplateCreated": true,
+        "ciCdSetup": true,
+        "autoResponseSetup": true,
+        "securityPolicyCreated": true,
+        "contributingGuideCreated": true,
+        "gitignoreCreated": true,
+        "githubPagesSetup": true,
+        "pushStrategyOptimized": true,
+        "ciWorkflowFixed": true
+      }
+    },
+    "monthlyProjectCreation": {
+      "enabled": true,
+      "currentMonth": "2026-03",
+      "newProjectCreated": false,
+      "deadline": "2026-03-31",
+      "pipeline": [
+        "MCP Server for browser automation",
+        "AI-powered code review assistant",
+        "Local RAG knowledge base tool",
+        "Cross-platform clipboard manager with AI"
+      ]
+    }
+  },
+  "newProjects": {
+    "pipeline": [
+      "MCP Server for browser automation",
+      "AI-powered code review assistant",
+      "Local RAG knowledge base tool",
+      "Cross-platform clipboard manager with AI"
+    ],
+    "ideas": [
+      "MCP Server for browser automation",
+      "AI-powered code review assistant",
+      "Local RAG knowledge base tool",
+      "Cross-platform clipboard manager with AI"
+    ],
+    "nextReview": "2026-03-14",
+    "monthlyTarget": 1,
+    "currentMonthProgress": 0
+  },
+  "blog": {
+    "lastCheck": "2026-03-11T11:45:00+08:00",
+    "postsPublished": {
+      "daily": "2026-03-11-ai-agent-landscape-2026.md",
+      "weekly": "2026-03-08-weekly-news-01.md"
+    },
+    "nextScheduledPost": "2026-03-12",
+    "weeklyPlan": {
+      "status": "approved",
+      "version": "v2",
+      "approvedAt": "2026-03-10T10:32:00+08:00",
+      "file": "memory/blog-weekly-plan-2026-W11-W12.md"
+    },
+    "status": "up-to-date",
+    "dailyPostRequired": true,
+    "weeklyTop10Required": true,
+    "hotspotResearchRequired": true,
+    "lastHotspotResearch": "2026-03-11T07:50:00+08:00",
+    "securityFix": {
+      "date": "2026-03-11T11:45:00+08:00",
+      "issue": "GitGuardian detected exposed secrets in zhuxunyu.github.io",
+      "action": "Reset repository history, removed memory/, logs/, skills/, avatars/ directories",
+      "status": "resolved"
+    }
+  },
+  "hotspotResearch": {
+    "platforms": [
+      "微信公众号",
+      "小红书",
+      "Twitter/X",
+      "B 站",
+      "微博",
+      "知乎",
+      "GitHub",
+      "RSS"
+    ],
+    "minPlatforms": 5,
+    "lastResearch": "2026-03-11T07:50:00+08:00",
+    "nextResearch": "2026-03-12T08:00:00+08:00",
+    "required": true
+  },
+  "heartbeatEnabled": true,
+  "activeHours": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+  "quietHours": [22, 23],
+  "createdAt": "2026-03-07T00:45:00+08:00",
+  "updatedAt": "2026-03-11T11:45:00+08:00",
+  "rulesVersion": "2.0"
+}
