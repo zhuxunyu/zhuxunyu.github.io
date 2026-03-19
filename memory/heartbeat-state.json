@@ -133,6 +133,20 @@
   "activeHours": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
   "quietHours": [22, 23],
   "createdAt": "2026-03-07T00:45:00+08:00",
-  "updatedAt": "2026-03-11T11:45:00+08:00",
+  "updatedAt": "2026-03-17T12:22:00+08:00",
+  "lastHeartbeat": {
+    "date": "2026-03-17",
+    "time": "12:22",
+    "tasksCompleted": [
+      "博客文章发布：《藏了 30 年的秘密：好故事为什么总能刷屏？》",
+      "GitHub 项目更新：ai-productivity-toolkit (commit 4f1d222)",
+      "MCP 服务器重启：rednote-mcp (PID 25764)"
+    ],
+    "issuesResolved": [
+      "博客延误 3h21m (已发布)",
+      "GitHub 6 天未更新 (已提交)",
+      "MCP 服务器离线 (已重启)"
+    ]
+  },
   "rulesVersion": "2.0"
 }
