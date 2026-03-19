@@ -1,0 +1,52 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">📊 不同场景 AI 助手推荐</text>
+  
+  <!-- Scenario 1 -->
+  <g transform="translate(50, 80)">
+    <circle cx="40" cy="25" r="30" fill="#A8D8EA"/>
+    <text x="40" y="30" text-anchor="middle" font-family="Arial" font-size="24" fill="#333">🎓</text>
+    <text x="90" y="20" font-family="Arial" font-size="16" font-weight="bold" fill="#333">学生/研究人员</text>
+    <text x="90" y="45" font-family="Arial" font-size="14" fill="#666">推荐：Kimi / 智谱清言</text>
+    <text x="400" y="32" font-family="Arial" font-size="13" fill="#555">长文档处理、论文解读、学术研究</text>
+  </g>
+  
+  <!-- Scenario 2 -->
+  <g transform="translate(50, 150)">
+    <circle cx="40" cy="25" r="30" fill="#AA96DA"/>
+    <text x="40" y="30" text-anchor="middle" font-family="Arial" font-size="24" fill="#333">💻</text>
+    <text x="90" y="20" font-family="Arial" font-size="16" font-weight="bold" fill="#333">开发者/程序员</text>
+    <text x="90" y="45" font-family="Arial" font-size="14" fill="#666">推荐：通义千问 2.5</text>
+    <text x="400" y="32" font-family="Arial" font-size="13" fill="#555">代码生成、调试、技术文档</text>
+  </g>
+  
+  <!-- Scenario 3 -->
+  <g transform="translate(50, 220)">
+    <circle cx="40" cy="25" r="30" fill="#FCBAD3"/>
+    <text x="40" y="30" text-anchor="middle" font-family="Arial" font-size="24" fill="#333">✍️</text>
+    <text x="90" y="20" font-family="Arial" font-size="16" font-weight="bold" fill="#333">内容创作者</text>
+    <text x="90" y="45" font-family="Arial" font-size="14" fill="#666">推荐：文心一言 4.5</text>
+    <text x="400" y="32" font-family="Arial" font-size="13" fill="#555">文案写作、多模态创作、中文表达</text>
+  </g>
+  
+  <!-- Scenario 4 -->
+  <g transform="translate(50, 290)">
+    <circle cx="40" cy="25" r="30" fill="#FFFFD2"/>
+    <text x="40" y="30" text-anchor="middle" font-family="Arial" font-size="24" fill="#333">💼</text>
+    <text x="90" y="20" font-family="Arial" font-size="16" font-weight="bold" fill="#333">企业办公</text>
+    <text x="90" y="45" font-family="Arial" font-size="14" fill="#666">推荐：通义千问 2.5</text>
+    <text x="400" y="32" font-family="Arial" font-size="13" fill="#555">阿里生态集成、API 调用、团队协作</text>
+  </g>
+  
+  <!-- Scenario 5 -->
+  <g transform="translate(50, 360)">
+    <circle cx="40" cy="25" r="30" fill="#A8E6CF"/>
+    <text x="40" y="30" text-anchor="middle" font-family="Arial" font-size="24" fill="#333">💰</text>
+    <text x="90" y="20" font-family="Arial" font-size="16" font-weight="bold" fill="#333">预算有限</text>
+    <text x="90" y="45" font-family="Arial" font-size="14" fill="#666">推荐：豆包</text>
+    <text x="400" y="32" font-family="Arial" font-size="13" fill="#555">完全免费、轻量快速、日常使用</text>
+  </g>
+</svg>

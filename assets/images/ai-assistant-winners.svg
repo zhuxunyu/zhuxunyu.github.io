@@ -1,0 +1,38 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">🏆 各维度最佳 AI 助手</text>
+  
+  <!-- Categories -->
+  <g transform="translate(50, 80)">
+    <rect width="700" height="50" fill="#FF6B6B" rx="8" opacity="0.9"/>
+    <text x="20" y="32" font-family="Arial" font-size="16" fill="white" font-weight="bold">日常对话能力</text>
+    <text x="550" y="32" font-family="Arial" font-size="18" fill="white" font-weight="bold">🥇 文心一言 4.5</text>
+  </g>
+  
+  <g transform="translate(50, 140)">
+    <rect width="700" height="50" fill="#4ECDC4" rx="8" opacity="0.9"/>
+    <text x="20" y="32" font-family="Arial" font-size="16" fill="white" font-weight="bold">长文本处理能力</text>
+    <text x="550" y="32" font-family="Arial" font-size="18" fill="white" font-weight="bold">🥇 Kimi</text>
+  </g>
+  
+  <g transform="translate(50, 200)">
+    <rect width="700" height="50" fill="#45B7D1" rx="8" opacity="0.9"/>
+    <text x="20" y="32" font-family="Arial" font-size="16" fill="white" font-weight="bold">代码能力</text>
+    <text x="550" y="32" font-family="Arial" font-size="18" fill="white" font-weight="bold">🥇 通义千问 2.5</text>
+  </g>
+  
+  <g transform="translate(50, 260)">
+    <rect width="700" height="50" fill="#FFA07A" rx="8" opacity="0.9"/>
+    <text x="20" y="32" font-family="Arial" font-size="16" fill="white" font-weight="bold">多模态能力</text>
+    <text x="550" y="32" font-family="Arial" font-size="18" fill="white" font-weight="bold">🥇 文心一言 4.5</text>
+  </g>
+  
+  <g transform="translate(50, 320)">
+    <rect width="700" height="50" fill="#98D8C8" rx="8" opacity="0.9"/>
+    <text x="20" y="32" font-family="Arial" font-size="16" fill="white" font-weight="bold">性价比</text>
+    <text x="550" y="32" font-family="Arial" font-size="18" fill="white" font-weight="bold">🥇 豆包 (免费)</text>
+  </g>
+</svg>

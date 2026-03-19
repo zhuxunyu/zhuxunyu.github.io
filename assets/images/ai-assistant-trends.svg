@@ -1,0 +1,47 @@
+<svg width="800" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="350" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">🔮 2026 年国产 AI 助手发展趋势</text>
+  
+  <!-- Trend 1 -->
+  <g transform="translate(60, 70)">
+    <rect width="160" height="100" fill="white" stroke="#FF6B6B" stroke-width="3" rx="10"/>
+    <text x="80" y="35" text-anchor="middle" font-family="Arial" font-size="32" fill="#FF6B6B">💸</text>
+    <text x="80" y="65" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#333">免费化</text>
+    <text x="80" y="85" text-anchor="middle" font-family="Arial" font-size="11" fill="#666">豆包倒逼行业</text>
+  </g>
+  
+  <!-- Trend 2 -->
+  <g transform="translate(240, 70)">
+    <rect width="160" height="100" fill="white" stroke="#4ECDC4" stroke-width="3" rx="10"/>
+    <text x="80" y="35" text-anchor="middle" font-family="Arial" font-size="32" fill="#4ECDC4">🎯</text>
+    <text x="80" y="65" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#333">垂直化</text>
+    <text x="80" y="85" text-anchor="middle" font-family="Arial" font-size="11" fill="#666">场景深耕</text>
+  </g>
+  
+  <!-- Trend 3 -->
+  <g transform="translate(420, 70)">
+    <rect width="160" height="100" fill="white" stroke="#45B7D1" stroke-width="3" rx="10"/>
+    <text x="80" y="35" text-anchor="middle" font-family="Arial" font-size="32" fill="#45B7D1">🔗</text>
+    <text x="80" y="65" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#333">生态化</text>
+    <text x="80" y="85" text-anchor="middle" font-family="Arial" font-size="11" fill="#666">护城河构建</text>
+  </g>
+  
+  <!-- Trend 4 -->
+  <g transform="translate(600, 70)">
+    <rect width="160" height="100" fill="white" stroke="#FFA07A" stroke-width="3" rx="10"/>
+    <text x="80" y="35" text-anchor="middle" font-family="Arial" font-size="32" fill="#FFA07A">🖼️</text>
+    <text x="80" y="65" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#333">多模态</text>
+    <text x="80" y="85" text-anchor="middle" font-family="Arial" font-size="11" fill="#666">新竞争战场</text>
+  </g>
+  
+  <!-- Bottom insight -->
+  <g transform="translate(60, 210)">
+    <rect width="680" height="100" fill="#2C3E50" rx="10"/>
+    <text x="340" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">💡 核心洞察</text>
+    <text x="340" y="60" text-anchor="middle" font-family="Arial" font-size="13" fill="#ECF0F1">通用模型能力差距缩小 → 差异化竞争成关键</text>
+    <text x="340" y="85" text-anchor="middle" font-family="Arial" font-size="13" fill="#ECF0F1">单一工具价值有限 → 生态整合决定胜负</text>
+  </g>
+</svg>
