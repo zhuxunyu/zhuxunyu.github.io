@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d2d44;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#bg2)"/>
+  
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-size="28" font-weight="bold" font-family="Arial">Vibe Coding 核心要素</text>
+  
+  <!-- Element 1: Music -->
+  <g transform="translate(100, 100)">
+    <circle cx="60" cy="60" r="50" fill="#1a1a2e" stroke="#e94560" stroke-width="3"/>
+    <text x="60" y="55" text-anchor="middle" fill="#e94560" font-size="32">🎵</text>
+    <text x="60" y="85" text-anchor="middle" fill="#ffffff" font-size="12" font-family="Arial">音乐氛围</text>
+    <text x="60" y="105" text-anchor="middle" fill="#aaaaaa" font-size="10" font-family="Arial">Lo-fi / Ambient</text>
+  </g>
+  
+  <!-- Element 2: Setup -->
+  <g transform="translate(250, 100)">
+    <circle cx="60" cy="60" r="50" fill="#1a1a2e" stroke="#00ff9d" stroke-width="3"/>
+    <text x="60" y="55" text-anchor="middle" fill="#00ff9d" font-size="32">🖥️</text>
+    <text x="60" y="85" text-anchor="middle" fill="#ffffff" font-size="12" font-family="Arial">桌面美学</text>
+    <text x="60" y="105" text-anchor="middle" fill="#aaaaaa" font-size="10" font-family="Arial">RGB / 极简</text>
+  </g>
+  
+  <!-- Element 3: Tools -->
+  <g transform="translate(400, 100)">
+    <circle cx="60" cy="60" r="50" fill="#1a1a2e" stroke="#ffd700" stroke-width="3"/>
+    <text x="60" y="55" text-anchor="middle" fill="#ffd700" font-size="32">⚙️</text>
+    <text x="60" y="85" text-anchor="middle" fill="#ffffff" font-size="12" font-family="Arial">工具配置</text>
+    <text x="60" y="105" text-anchor="middle" fill="#aaaaaa" font-size="10" font-family="Arial">终端 / 主题</text>
+  </g>
+  
+  <!-- Element 4: Community -->
+  <g transform="translate(550, 100)">
+    <circle cx="60" cy="60" r="50" fill="#1a1a2e" stroke="#ff6b9d" stroke-width="3"/>
+    <text x="60" y="55" text-anchor="middle" fill="#ff6b9d" font-size="32">👥</text>
+    <text x="60" y="85" text-anchor="middle" fill="#ffffff" font-size="12" font-family="Arial">社区分享</text>
+    <text x="60" y="105" text-anchor="middle" fill="#aaaaaa" font-size="10" font-family="Arial">Twitter / GitHub</text>
+  </g>
+  
+  <!-- Bottom section: Why it matters -->
+  <rect x="50" y="250" width="700" height="200" rx="10" fill="#1a1a2e" stroke="#e94560" stroke-width="2"/>
+  <text x="400" y="285" text-anchor="middle" fill="#e94560" font-size="20" font-weight="bold" font-family="Arial">为什么 Vibe Coding 重要？</text>
+  
+  <g transform="translate(100, 320)">
+    <text x="0" y="0" fill="#00ff9d" font-size="18" font-family="Arial">✓</text>
+    <text x="25" y="3" fill="#ffffff" font-size="14" font-family="Arial">对抗职业倦怠</text>
+  </g>
+  
+  <g transform="translate(100, 355)">
+    <text x="0" y="0" fill="#00ff9d" font-size="18" font-family="Arial">✓</text>
+    <text x="25" y="3" fill="#ffffff" font-size="14" font-family="Arial">提升创造力</text>
+  </g>
+  
+  <g transform="translate(100, 390)">
+    <text x="0" y="0" fill="#00ff9d" font-size="18" font-family="Arial">✓</text>
+    <text x="25" y="3" fill="#ffffff" font-size="14" font-family="Arial">建立社区连接</text>
+  </g>
+  
+  <g transform="translate(400, 320)">
+    <text x="0" y="0" fill="#00ff9d" font-size="18" font-family="Arial">✓</text>
+    <text x="25" y="3" fill="#ffffff" font-size="14" font-family="Arial">工作生活融合</text>
+  </g>
+  
+  <g transform="translate(400, 355)">
+    <text x="0" y="0" fill="#00ff9d" font-size="18" font-family="Arial">✓</text>
+    <text x="25" y="3" fill="#ffffff" font-size="14" font-family="Arial">个人表达</text>
+  </g>
+  
+  <g transform="translate(400, 390)">
+    <text x="0" y="0" fill="#00ff9d" font-size="18" font-family="Arial">✓</text>
+    <text x="25" y="3" fill="#ffffff" font-size="14" font-family="Arial">享受编程过程</text>
+  </g>
+</svg>
