@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">智能厨房面临的主要挑战</text>
+  
+  <!-- Challenge 1 -->
+  <rect x="50" y="70" width="340" height="100" rx="10" fill="#FFEBEE" stroke="#F44336" stroke-width="2"/>
+  <text x="80" y="100" text-anchor="start" font-family="Arial" font-size="16" font-weight="bold" fill="#C62828">⚠️ 伪智能问题</text>
+  <text x="80" y="125" text-anchor="start" font-family="Arial" font-size="12" fill="#333">• "能联网"就敢叫智能</text>
+  <text x="80" y="145" text-anchor="start" font-family="Arial" font-size="12" fill="#333">• APP 比操作面板还复杂</text>
+  <text x="80" y="165" text-anchor="start" font-family="Arial" font-size="12" fill="#333">• 联网功能一年用不了两次</text>
+  
+  <!-- Challenge 2 -->
+  <rect x="410" y="70" width="340" height="100" rx="10" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+  <text x="440" y="100" text-anchor="start" font-family="Arial" font-size="16" font-weight="bold" fill="#E65100">🔗 生态割裂</text>
+  <text x="440" y="125" text-anchor="start" font-family="Arial" font-size="12" fill="#333">• 小米连不上华为</text>
+  <text x="440" y="145" text-anchor="start" font-family="Arial" font-size="12" fill="#333">• 换品牌=重新买一套</text>
+  <text x="440" y="165" text-anchor="start" font-family="Arial" font-size="12" fill="#333">• 缺乏统一标准</text>
+  
+  <!-- Challenge 3 -->
+  <rect x="50" y="190" width="340" height="100" rx="10" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+  <text x="80" y="220" text-anchor="start" font-family="Arial" font-size="16" font-weight="bold" fill="#1565C0">🔒 隐私安全</text>
+  <text x="80" y="245" text-anchor="start" font-family="Arial" font-size="12" fill="#333">• 冰箱知道你吃什么</text>
+  <text x="80" y="265" text-anchor="start" font-family="Arial" font-size="12" fill="#333">• 数据会不会被滥用？</text>
+  <text x="80" y="285" text-anchor="start" font-family="Arial" font-size="12" fill="#333">• 黑客能控制设备吗？</text>
+  
+  <!-- Challenge 4 -->
+  <rect x="410" y="190" width="340" height="100" rx="10" fill="#F3E5F5" stroke="#9C27B0" stroke-width="2"/>
+  <text x="440" y="220" text-anchor="start" font-family="Arial" font-size="16" font-weight="bold" fill="#6A1B9A">🔧 维修售后</text>
+  <text x="440" y="245" text-anchor="start" font-family="Arial" font-size="12" fill="#333">• 普通维修店修不了</text>
+  <text x="440" y="265" text-anchor="start" font-family="Arial" font-size="12" fill="#333">• 软件更新导致变砖</text>
+  <text x="440" y="285" text-anchor="start" font-family="Arial" font-size="12" fill="#333">• 厂商倒闭设备变废铁</text>
+  
+  <!-- User complaints section -->
+  <rect x="50" y="310" width="700" height="80" rx="10" fill="#FFEBEE" stroke="#F44336" stroke-width="2"/>
+  <text x="400" y="335" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#C62828">💬 用户真实吐槽</text>
+  <text x="400" y="355" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">"手机控制开关，这算哪门子智能？"  |  "为了智能而智能，没有解决真实需求"</text>
+  <text x="400" y="375" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">"买 A 品牌冰箱，就得买 A 品牌烤箱"  |  "智能设备生命周期短于传统设备"</text>
+  
+  <!-- Bottom annotation -->
+  <rect x="50" y="405" width="700" height="35" rx="6" fill="#ECEFF1" stroke="#90A4AE" stroke-width="1"/>
+  <text x="400" y="427" text-anchor="middle" font-family="Arial" font-size="11" fill="#546E7A">行业责任：建立标准 · 透明数据政策 · 加强安全防护 · 完善售后体系</text>
+</svg>

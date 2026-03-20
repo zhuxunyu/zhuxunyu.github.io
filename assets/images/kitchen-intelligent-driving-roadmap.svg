@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9013FE;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">厨房智驾演进路线图</text>
+  
+  <!-- L1 Stage -->
+  <rect x="50" y="80" width="200" height="120" rx="10" fill="#E3F2FD" stroke="#4A90E2" stroke-width="2"/>
+  <text x="150" y="110" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1976D2">L1 单品智能</text>
+  <text x="150" y="135" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">2020-2022</text>
+  <text x="150" y="160" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">• 单一设备联网</text>
+  <text x="150" y="180" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">• 远程控制</text>
+  <text x="150" y="200" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">• 智能冰箱/烤箱</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 260 140 L 310 140" stroke="url(#grad1)" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="url(#grad1)"/>
+    </marker>
+  </defs>
+  
+  <!-- L2 Stage -->
+  <rect x="320" y="80" width="200" height="120" rx="10" fill="#F3E5F5" stroke="#9013FE" stroke-width="2"/>
+  <text x="420" y="110" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#7B1FA2">L2 场景联动</text>
+  <text x="420" y="135" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">2023-2024</text>
+  <text x="420" y="160" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">• 多设备协同</text>
+  <text x="420" y="180" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">• 简单自动化</text>
+  <text x="420" y="200" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">• 米家/华为全屋</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 530 140 L 580 140" stroke="url(#grad1)" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- L3 Stage -->
+  <rect x="590" y="80" width="200" height="120" rx="10" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+  <text x="690" y="110" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#388E3C">L3 决策智能</text>
+  <text x="690" y="135" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">2025-2026</text>
+  <text x="690" y="160" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">• AI 主动决策</text>
+  <text x="690" y="180" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">• 个性化服务</text>
+  <text x="690" y="200" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">• AI 营养师</text>
+  
+  <!-- Key Difference Box -->
+  <rect x="150" y="240" width="500" height="80" rx="8" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+  <text x="400" y="265" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#F57C00">关键区别</text>
+  <text x="400" y="290" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">L1/L2: 人指挥设备  →  L3: 设备主动服务人</text>
+  <text x="400" y="310" text-anchor="middle" font-family="Arial" font-size="11" fill="#666">例：冰箱检测食材→推荐菜谱→烤箱自动预热</text>
+  
+  <!-- Icons -->
+  <circle cx="150" cy="360" r="15" fill="#4A90E2"/>
+  <text x="150" y="365" text-anchor="middle" font-family="Arial" font-size="12" fill="white">📱</text>
+  
+  <circle cx="420" cy="360" r="15" fill="#9013FE"/>
+  <text x="420" y="365" text-anchor="middle" font-family="Arial" font-size="12" fill="white">🔗</text>
+  
+  <circle cx="690" cy="360" r="15" fill="#4CAF50"/>
+  <text x="690" y="365" text-anchor="middle" font-family="Arial" font-size="12" fill="white">🤖</text>
+</svg>

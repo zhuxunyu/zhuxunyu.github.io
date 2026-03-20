@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">智能厨房爆发驱动因素</text>
+  
+  <!-- Driver 1: Technology -->
+  <rect x="50" y="70" width="220" height="160" rx="10" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+  <text x="160" y="100" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1565C0">🔧 技术成熟</text>
+  <text x="160" y="130" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">• AI 大模型赋能</text>
+  <text x="160" y="150" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">• 视觉识别 +NLP</text>
+  <text x="160" y="170" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">• 传感器成本↓90%</text>
+  <text x="160" y="195" text-anchor="middle" font-family="Arial" font-size="11" fill="#666">温度传感器 ¥50→¥5</text>
+  <text x="160" y="215" text-anchor="middle" font-family="Arial" font-size="11" fill="#666">图像传感器 ¥200→¥30</text>
+  
+  <!-- Driver 2: Consumer -->
+  <rect x="290" y="70" width="220" height="160" rx="10" fill="#E8F5E9" stroke="#388E3C" stroke-width="2"/>
+  <text x="400" y="100" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#2E7D32">👥 消费认知</text>
+  <text x="400" y="130" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">• 疫情后健康意识↑</text>
+  <text x="400" y="150" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">• 愿为便利买单</text>
+  <text x="400" y="170" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">• 市场教育完成</text>
+  <text x="400" y="195" text-anchor="middle" font-family="Arial" font-size="11" fill="#666">72% 愿支付溢价</text>
+  <text x="400" y="215" text-anchor="middle" font-family="Arial" font-size="11" fill="#666">58% 认为提升品质</text>
+  
+  <!-- Driver 3: Industry -->
+  <rect x="530" y="70" width="220" height="160" rx="10" fill="#FFF3E0" stroke="#F57C00" stroke-width="2"/>
+  <text x="640" y="100" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#EF6C00">🏭 产业协同</text>
+  <text x="640" y="130" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">• 生态竞争加剧</text>
+  <text x="640" y="150" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">• 大厂全面入场</text>
+  <text x="640" y="170" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">• 研发投入增加</text>
+  <text x="640" y="195" text-anchor="middle" font-family="Arial" font-size="11" fill="#666">小米/华为/海尔/美的</text>
+  <text x="640" y="215" text-anchor="middle" font-family="Arial" font-size="11" fill="#666">用户体验↑ 价格↓</text>
+  
+  <!-- Center Connection -->
+  <circle cx="400" cy="300" r="60" fill="url(#centerGrad)" stroke="#9013FE" stroke-width="3"/>
+  <text x="400" y="295" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">2026</text>
+  <text x="400" y="315" text-anchor="middle" font-family="Arial" font-size="12" fill="white">爆发拐点</text>
+  
+  <!-- Arrows -->
+  <defs>
+    <linearGradient id="centerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9013FE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A90E2;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#9013FE"/>
+    </marker>
+  </defs>
+  
+  <line x1="160" y1="240" x2="350" y2="280" stroke="#9013FE" stroke-width="2" marker-end="url(#arrowhead2)"/>
+  <line x1="400" y1="240" x2="400" y2="270" stroke="#9013FE" stroke-width="2" marker-end="url(#arrowhead2)"/>
+  <line x1="640" y1="240" x2="450" y2="280" stroke="#9013FE" stroke-width="2" marker-end="url(#arrowhead2)"/>
+  
+  <!-- Bottom annotation -->
+  <rect x="150" y="350" width="500" height="70" rx="8" fill="#F3E5F5" stroke="#9013FE" stroke-width="2"/>
+  <text x="400" y="375" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#7B1FA2">三方共振 = 市场爆发</text>
+  <text x="400" y="395" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">技术成熟 + 消费认知 + 产业协同 → 2026 年渗透率突破 30%</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Arial" font-size="11" fill="#666">类比：智能手机 2010 年、新能源汽车 2020 年</text>
+</svg>
