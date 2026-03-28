@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect fill="#1a1a2e" width="800" height="400"/>
+  <text x="400" y="35" text-anchor="middle" fill="#eee" font-size="18">Flowise 使用技巧与注意事项</text>
+  
+  <!-- 左侧：最佳实践 -->
+  <rect x="40" y="70" width="340" height="280" fill="#16213e" stroke="#4caf50" stroke-width="2" rx="10"/>
+  <text x="210" y="100" text-anchor="middle" fill="#4caf50" font-size="16">✅ 最佳实践</text>
+  
+  <text x="60" y="140" fill="#ccc" font-size="13">• 文档分块：500-1000 字符/块</text>
+  <text x="60" y="170" fill="#ccc" font-size="13">• 使用缓存减少 API 调用</text>
+  <text x="60" y="200" fill="#ccc" font-size="13">• 先小范围测试再扩大</text>
+  <text x="60" y="230" fill="#ccc" font-size="13">• 保存模板方便复用</text>
+  <text x="60" y="260" fill="#ccc" font-size="13">• 定期更新组件版本</text>
+  <text x="60" y="290" fill="#ccc" font-size="13">• 使用环境变量管理 API Key</text>
+  
+  <!-- 右侧：常见陷阱 -->
+  <rect x="420" y="70" width="340" height="280" fill="#16213e" stroke="#e94560" stroke-width="2" rx="10"/>
+  <text x="590" y="100" text-anchor="middle" fill="#e94560" font-size="16">⚠️ 常见陷阱</text>
+  
+  <text x="440" y="140" fill="#ccc" font-size="13">• 文档质量差 → 回答不准确</text>
+  <text x="440" y="170" fill="#ccc" font-size="13">• 分块过大 → 超出上下文限制</text>
+  <text x="440" y="200" fill="#ccc" font-size="13">• 过度检索 → 响应慢、成本高</text>
+  <text x="440" y="230" fill="#ccc" font-size="13">• 忽略错误处理 → 系统不稳定</text>
+  <text x="440" y="260" fill="#ccc" font-size="13">• 硬编码配置 → 难以维护</text>
+  <text x="440" y="290" fill="#ccc" font-size="13">• 不测试边界情况 → 生产问题</text>
+  
+  <!-- 底部提示 -->
+  <text x="400" y="375" text-anchor="middle" fill="#ffc107" font-size="14">💡 提示：从社区模板开始，修改比从零创建更快</text>
+</svg>

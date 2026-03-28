@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect fill="#1a1a2e" width="800" height="400"/>
+  <text x="400" y="35" text-anchor="middle" fill="#eee" font-size="18">传统开发 vs Flowise 拖拽</text>
+  
+  <!-- 左侧：传统开发 -->
+  <rect x="40" y="70" width="340" height="280" fill="#16213e" stroke="#e94560" stroke-width="2" rx="10"/>
+  <text x="210" y="100" text-anchor="middle" fill="#e94560" font-size="16">❌ 传统开发方式</text>
+  
+  <text x="60" y="140" fill="#ccc" font-size="14">• 学习 Python/JavaScript（2-3 个月）</text>
+  <text x="60" y="170" fill="#ccc" font-size="14">• 理解 API 和异步编程（1 个月）</text>
+  <text x="60" y="200" fill="#ccc" font-size="14">• 处理依赖和环境配置（1 周）</text>
+  <text x="60" y="230" fill="#ccc" font-size="14">• 编写和调试代码（数天）</text>
+  <text x="60" y="260" fill="#ccc" font-size="14">• 部署和维护（持续）</text>
+  
+  <text x="210" y="310" text-anchor="middle" fill="#e94560" font-size="14">总耗时：3-6 个月</text>
+  
+  <!-- 右侧：Flowise -->
+  <rect x="420" y="70" width="340" height="280" fill="#16213e" stroke="#00adb5" stroke-width="2" rx="10"/>
+  <text x="590" y="100" text-anchor="middle" fill="#00adb5" font-size="16">✅ Flowise 拖拽方式</text>
+  
+  <text x="440" y="140" fill="#ccc" font-size="14">• 注册/安装（5 分钟）</text>
+  <text x="440" y="170" fill="#ccc" font-size="14">• 熟悉界面（30 分钟）</text>
+  <text x="440" y="200" fill="#ccc" font-size="14">• 拖拽组件搭建（15 分钟）</text>
+  <text x="440" y="230" fill="#ccc" font-size="14">• 配置 API Key（2 分钟）</text>
+  <text x="440" y="260" fill="#ccc" font-size="14">• 测试和发布（5 分钟）</text>
+  
+  <text x="590" y="310" text-anchor="middle" fill="#00adb5" font-size="14">总耗时：约 1 小时</text>
+  
+  <!-- 底部对比 -->
+  <text x="400" y="380" text-anchor="middle" fill="#eee" font-size="14">效率提升：约 100 倍</text>
+</svg>
